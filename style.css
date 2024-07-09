@@ -1,0 +1,75 @@
+*,::after,::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* google fonts style starts*/
+body{
+    font-family: "Merriweather", serif;
+}
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+/* google fonts style ends*/
+
+/* header section design starts here */
+.header-container{
+    width: 1320px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image : url('new-year-offer-resources/images/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto;
+    border-radius:10px;
+    background: linear-gradient(rgb(7, 2, 17)
+    rgba(7, 2, 17, 0));
+    position: relative;
+    background-blend-mode: overlay;
+}
+
+.header-content{
+    width: 632px;
+    height: 246px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-content h3{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight:400;
+}
+
+.header-content h2{
+    font-size: 72px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+/* header section design ends here */
