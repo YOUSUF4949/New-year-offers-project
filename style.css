@@ -177,3 +177,51 @@ body{
   height: 100%;
 }
 /* welcome section design ends here */
+/* location section design starts here */
+.location{
+  height: 450px;
+  margin-top: 120px;
+  width: 1200px;
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location .location-content{
+  text-align: center;
+}
+
+.location-content h3{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.location-content h3:nth-child(3){
+  margin-bottom: 0;
+}
+.location-content h3 span{
+  color: rgb(255, 0, 0);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.location-content .btn{
+  margin-top: 48px;
+  background-color: rgb(255, 0, 0);
+  width: 167px;
+  height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.location-content .btn a{
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+
+/* location section design end here */
